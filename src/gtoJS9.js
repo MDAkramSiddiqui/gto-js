@@ -16,9 +16,9 @@ let admin = {
   isAdmin: true,
 };
 
-alert(admin.fullName);
+console.log(admin.fullName);
 
 admin.fullName = "Alice Cooper";
 
-alert(admin.fullName);
-alert(user.fullName);
+console.log(admin.fullName);
+console.log(user.fullName);
